@@ -1,0 +1,46 @@
+2023-06-13 14:40:08.332  INFO 2020 --- [main] c.a.msclientes.MsclientesApplication     : Starting MsclientesApplication using Java 17.0.5 on MilleniumFalcon-Desktop with PID 2020 (C:\Development\ws-ms\msclientes\target\classes started by arthurbarbosa in C:\Development\ws-ms\msclientes)
+2023-06-13 14:40:08.336  INFO 2020 --- [main] c.a.msclientes.MsclientesApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-06-13 14:40:09.538  INFO 2020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-13 14:40:09.656  INFO 2020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 1 JPA repository interfaces.
+2023-06-13 14:40:09.958  INFO 2020 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=446c2bc7-c54f-363b-99d7-059d03a71366
+2023-06-13 14:40:10.399  INFO 2020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-06-13 14:40:10.423  INFO 2020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-13 14:40:10.424  INFO 2020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-06-13 14:40:10.583  INFO 2020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-13 14:40:10.583  INFO 2020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2177 ms
+2023-06-13 14:40:10.890  INFO 2020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-13 14:40:11.082  INFO 2020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-13 14:40:11.181  INFO 2020 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-13 14:40:11.276  INFO 2020 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2023-06-13 14:40:11.497  INFO 2020 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-13 14:40:11.739  INFO 2020 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-13 14:40:12.519  INFO 2020 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-13 14:40:12.529  INFO 2020 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-13 14:40:12.994  WARN 2020 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-13 14:40:14.187  INFO 2020 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-06-13 14:40:14.257  WARN 2020 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-06-13 14:40:14.263  INFO 2020 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-06-13 14:40:14.383  INFO 2020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53673 (http) with context path ''
+2023-06-13 14:40:14.385  INFO 2020 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 53673
+2023-06-13 14:40:14.389  INFO 2020 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-06-13 14:40:14.425  INFO 2020 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-06-13 14:40:14.431  INFO 2020 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-06-13 14:40:14.453  INFO 2020 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-06-13 14:40:14.455  INFO 2020 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-06-13 14:40:14.455  INFO 2020 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-06-13 14:40:14.455  INFO 2020 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-06-13 14:40:14.455  INFO 2020 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-06-13 14:40:14.455  INFO 2020 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-06-13 14:40:14.455  INFO 2020 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-06-13 14:40:15.072  INFO 2020 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-06-13 14:40:15.075  INFO 2020 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-06-13 14:40:15.079  INFO 2020 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-06-13 14:40:15.087  INFO 2020 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1686678015086 with initial instances count: 3
+2023-06-13 14:40:15.089  INFO 2020 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSCLIENTES with eureka with status UP
+2023-06-13 14:40:15.090  INFO 2020 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1686678015090, current=UP, previous=STARTING]
+2023-06-13 14:40:15.091  INFO 2020 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:bc1fde46e98e2e87e0770e8eaac7e2fc: registering service...
+2023-06-13 14:40:15.245  INFO 2020 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:bc1fde46e98e2e87e0770e8eaac7e2fc - registration status: 204
+2023-06-13 14:40:15.273  INFO 2020 --- [main] c.a.msclientes.MsclientesApplication     : Started MsclientesApplication in 7.643 seconds (JVM running for 8.371)
+2023-06-13 14:40:15.595  INFO 2020 --- [RMI TCP Connection(3)-192.168.0.19] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-13 14:40:15.595  INFO 2020 --- [RMI TCP Connection(3)-192.168.0.19] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-13 14:40:15.597  INFO 2020 --- [RMI TCP Connection(3)-192.168.0.19] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
